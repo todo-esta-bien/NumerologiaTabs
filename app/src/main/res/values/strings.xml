@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Numerologia App UX</string>
+    <string name="apellidos">Clinton Gates</string>
+    <string name="nombre_s">Name(s):</string>
+    <string name="apellido_s">Last Name</string>
+    <string name="leticia_ver_nica">Bill</string>
+    <string name="errorDatosLogin">Did you write all the data?</string>
+    <string name="numPit">Pitagoric</string>
+    <string name="numTant">Tantric</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tabbedActivityTitle">Numerodon</string>
+
+    <!-- Numerología Tántrica -->
+
+    <string name="alma">Soul</string>
+    <string name="karma">Karma</string>
+    <string name="talento">Talent</string>
+    <string name="destino">Destiny</string>
+    <string name="camino">Path</string>
+    <string name="edadCosmica">Cosmic Age</string>
+    <string name="valDemo">0</string>
+
+</resources>

@@ -1,0 +1,181 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.com.bit01.numerologiaappux.TantricaFragment"
+    android:background="@color/colorPrimaryLight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_weight="33"
+                android:layout_height="wrap_content"
+                android:text="@string/alma"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_weight="33"
+                android:layout_height="wrap_content"
+                android:text="@string/talento"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="@string/valDemo"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="@string/valDemo"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/camino"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_height="wrap_content"
+                android:text="@string/valDemo"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/karma"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/destino"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_height="wrap_content"
+                android:text="@string/valDemo"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/valDemo"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/edadCosmica"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/valDemo"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="33"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

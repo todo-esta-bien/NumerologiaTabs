@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Numerologia App UX</string>
+    <string name="apellidos">Neri Guzmán</string>
+    <string name="numPit">Pitagórica</string>
+    <string name="numTant">Tántrica</string>
+    <string name="nombre_s">Nombre(s):</string>
+    <string name="leticia_ver_nica">Leticia Verónica</string>
+    <string name="apellido_s">Apellido(s)</string>
+    <string name="errorDatosLogin">Pusiste todos los datos?</string>
+    <string name="hello_blank_fragment">Hola Blank  Fragment</string>
+    <string name="tabbedActivityTitle">Numerodón</string>
+
+    <!-- Numerología Tántrica -->
+
+    <string name="alma">Alma</string>
+    <string name="karma">Karma</string>
+    <string name="talento">Talento</string>
+    <string name="destino">Destino</string>
+    <string name="camino">Camino</string>
+    <string name="edadCosmica">Edad Cósmica</string>
+    <string name="valDemo">0</string>
+
+</resources>
