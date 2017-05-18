@@ -2,7 +2,7 @@
     <string name="app_name">Numerologia App UX</string>
     <string name="apellidos">Clinton Gates</string>
     <string name="nombre_s">Name(s):</string>
-    <string name="apellido_s">Last Name</string>
+    <string name="apellido_s">Last Name:</string>
     <string name="leticia_ver_nica">Bill</string>
     <string name="errorDatosLogin">Did you write all the data?</string>
     <string name="numPit">Pitagoric</string>
@@ -21,5 +21,14 @@
     <string name="camino">Path</string>
     <string name="edadCosmica">Cosmic Age</string>
     <string name="valDemo">0</string>
+
+    <string-array name="opcionesSpinnerFecha">
+        <item>Selector</item>
+        <item>Manual</item>
+    </string-array>
+    <string name="FechaText">Date:</string>
+    <string name="seleccionaFechaText">Select Date</string>
+    <string name="dateHint">dd/mm/yyyy</string>
+    <string name="errorFecha">Please check the date, something is wrong</string>
 
 </resources>

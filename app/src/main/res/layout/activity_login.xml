@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryLight"
-    tools:context="mx.com.bit01.numerologiaappux.Login"
+    android:background="@drawable/fading_background_color"
+    tools:context="mx.com.bit01.numerologiaappux.ui.Login"
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="25dp">
 
@@ -42,7 +42,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
-                android:layout_weight="20"
+                android:layout_weight="30"
+                android:gravity="center|right"
+                android:layout_gravity="center"
                 android:text="@string/nombre_s"
                 tools:layout_editor_absoluteX="53dp"
                 tools:layout_editor_absoluteY="195dp" />
@@ -70,8 +72,8 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginStart="10dp"
-                android:layout_weight="20"
-                android:gravity="center"
+                android:layout_weight="30"
+                android:gravity="center|right"
                 android:text="@string/apellido_s"
                 tools:layout_editor_absoluteX="53dp"
                 tools:layout_editor_absoluteY="195dp" />
@@ -86,6 +88,46 @@
                 android:hint="@string/apellidos"
                 tools:layout_editor_absoluteX="138dp"
                 tools:layout_editor_absoluteY="186dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnerOpcionesFecha"
+                android:layout_width="0dp"
+                android:layout_weight="25"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txtFecha"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:gravity="center"
+                android:text="@string/FechaText"/>
+
+            <TextView
+                android:id="@+id/valFecha"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:gravity="center|left"
+                android:text="@string/seleccionaFechaText"/>
+
+            <EditText
+                android:id="@+id/fechaManual"
+                android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="match_parent"
+                android:inputType="date"
+                android:layout_marginRight="10dp"
+                android:paddingRight="10dp"
+                android:hint="@string/dateHint"/>
 
 
         </LinearLayout>

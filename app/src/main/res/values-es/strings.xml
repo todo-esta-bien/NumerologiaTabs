@@ -6,7 +6,7 @@
     <string name="numTant">Tántrica</string>
     <string name="nombre_s">Nombre(s):</string>
     <string name="leticia_ver_nica">Leticia Verónica</string>
-    <string name="apellido_s">Apellido(s)</string>
+    <string name="apellido_s">Apellido(s):</string>
     <string name="errorDatosLogin">Pusiste todos los datos?</string>
     <string name="hello_blank_fragment">Hola Blank  Fragment</string>
     <string name="tabbedActivityTitle">Numerodón</string>
@@ -20,5 +20,14 @@
     <string name="camino">Camino</string>
     <string name="edadCosmica">Edad Cósmica</string>
     <string name="valDemo">0</string>
+
+    <string-array name="opcionesSpinnerFecha">
+        <item>Selector</item>
+        <item>Manual</item>
+    </string-array>
+    <string name="FechaText">Fecha:</string>
+    <string name="seleccionaFechaText">Selecciona Fecha</string>
+    <string name="dateHint">dd/mm/aaaa</string>
+    <string name="errorFecha">Algo anda mal con la fecha, revisa por favor</string>
 
 </resources>
