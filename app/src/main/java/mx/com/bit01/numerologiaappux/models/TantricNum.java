@@ -148,6 +148,17 @@ public class TantricNum extends Numerology implements Parcelable{
     }
 
     @Override
+    public boolean isMaster(String numero) {
+        if(numero.equals("10") || numero.equals("11") || numero.equals("22") || numero.equals("33") || numero.equals("44") || numero.equals("55")){
+            return true;
+        }else {
+
+            return false;
+
+        }
+    }
+
+    @Override
     public int describeContents() {
         return 0;
     }
