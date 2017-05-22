@@ -81,13 +81,13 @@ public class TantricNum extends Numerology implements Parcelable{
 
     public int calculateSoul(int dia){
 
-        return sumAll(dia+"", false);
+        return sumAll(dia+"", true);
 
     }
 
     public int calculateKarma(int mes){
 
-        return sumAll(mes+"", false);
+        return sumAll(mes+"", true);
 
     }
 
@@ -145,17 +145,6 @@ public class TantricNum extends Numerology implements Parcelable{
 
         return sumaTmpInt*1000;
 
-    }
-
-    @Override
-    public boolean isMaster(String numero) {
-        if(numero.equals("10") || numero.equals("11") || numero.equals("22") || numero.equals("33") || numero.equals("44") || numero.equals("55")){
-            return true;
-        }else {
-
-            return false;
-
-        }
     }
 
     @Override

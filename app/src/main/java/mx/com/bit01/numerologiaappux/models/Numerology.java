@@ -14,7 +14,21 @@ public class Numerology {
 
         int[] digs = new int[sumaTmp.length()];
 
-        boolean mayorADiez=true, esMaestro=false;
+        boolean mayorADiez=false, esMaestro=false;
+
+        if(Integer.parseInt(numero) > 10){
+            mayorADiez = true;
+        }else{
+
+            sumaTmpInt = Integer.parseInt(numero);
+            return sumaTmpInt;
+
+        }
+
+        if(isMaster(numero)){
+            sumaTmpInt = Integer.parseInt(numero);
+            return sumaTmpInt;
+        }
 
         if(pararSiMaestro){
 
@@ -74,7 +88,7 @@ public class Numerology {
 
     public boolean isMaster(String numero){
 
-        if(numero.equals("11") || numero.equals("22") || numero.equals("33") || numero.equals("44") || numero.equals("55")){
+        if(numero.equals("10") || numero.equals("11") || numero.equals("22") || numero.equals("33") || numero.equals("44") || numero.equals("55")){
             return true;
         }else {
 
